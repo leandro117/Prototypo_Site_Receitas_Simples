@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Vídeos</h1>
+    <span class="menu-toggle">&#9776;</span>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dicas.html">Dicas & Técnicas</a>
+      <a href="videos.html" class="active">Vídeos</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <ul>
+        <li>Receitas em Vídeo</li>
+        <li>Lives / Aulas</li>
+        <li>Bastidores da Cozinha</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>&copy; 2025 - Site de Culinária</footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('nav').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
