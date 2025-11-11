@@ -65,6 +65,29 @@ ul li {
   margin: 5px 0;
 }
 
+/* definições para a página de Contato */
+
+form {
+  padding: 20px 0px;
+	margin: auto;
+}
+
+form label, form p {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+}
+
+.input-padrao {
+	display: block;
+	padding: 10px 40px;
+	width: 80%
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
 footer {
   text-align: center;
   padding: 20px;
